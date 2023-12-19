@@ -1,0 +1,79 @@
+section{
+    height: 97vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 460px;
+    width: 350px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.nav{
+    padding-right: 260px;
+}
+
+div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px;
+}
+
+.icon{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px lightgray;
+    cursor: pointer;
+}
+ 
+.icon i:hover{
+    transform: translate(1px,1px);
+    background-color: whitesmoke;
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.973);
+    border: white;
+    border-radius: 5px;
+    inline-size: 130px;
+    block-size: 40px;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+.btn:hover{
+    transform: translate(1px,1px);
+    background-color: whitesmoke;
+}
+
+.icon2{
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+
+}
